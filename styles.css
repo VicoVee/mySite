@@ -1,15 +1,29 @@
 body {
     background: salmon;
     margin-left: auto;
+    margin: 0px;
 
 }
 
 nav {
+    background: rgb(148, 68, 68);
+    width: auto;
+    height: auto;
+    padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-nav ul {
-    border: 2px solid white;
+nav a {
+    border: 2px solid white; /* Keep border for testing */
+    box-sizing: border-box; 
+    width: 120px;
+    height: 40px;
+    padding: 20px 0px 30px 0px ;
+    text-align: center;
+}
+
+a{
+    color: white;
 }
